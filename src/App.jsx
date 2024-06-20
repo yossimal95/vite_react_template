@@ -9,11 +9,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-
-const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-]);
-
+const router = createBrowserRouter(
+  [
+    { path: "/", element: <Home /> }
+  ],
+  {
+    basename: '/vite_react_template'
+  }
+);
 
 const arrOfItems = [
     {
