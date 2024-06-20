@@ -9,5 +9,5 @@ const levelConfig = {
 
 export default {
     ...config,
-    levalConfig: levelConfig[test_LEVEL]
+    levalConfig: levelConfig[VITE_LEVEL]
 };
