@@ -2,6 +2,7 @@
   "name": "vite_react_template",
   "private": true,
   "version": "0.0.0",
+  "homepage" : "/vite_react_template/",
   "type": "module",
   "scripts": {
     "dev": "vite --open",
